@@ -1,0 +1,47 @@
+{
+   "abstract" : "parse Search::OpenSearch::Response::XML ",
+   "author" : [
+      "Peter Karman <karman@cpan.org>"
+   ],
+   "dynamic_config" : 1,
+   "generated_by" : "ExtUtils::MakeMaker version 6.62, CPAN::Meta::Converter version 2.132510",
+   "license" : [
+      "unknown"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Search-OpenSearch-FeedParser",
+   "no_index" : {
+      "directory" : [
+         "t",
+         "inc"
+      ]
+   },
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "Test::More" : "0"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "0"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Data::Dump" : "0",
+            "Data::Transformer" : "0",
+            "Rose::ObjectX::CAF" : "0",
+            "Search::Tools" : "0",
+            "Test::More" : "0",
+            "XML::Feed" : "0",
+            "XML::Simple" : "0"
+         }
+      }
+   },
+   "release_status" : "stable",
+   "version" : "0.01"
+}
